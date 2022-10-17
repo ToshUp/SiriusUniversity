@@ -14,6 +14,7 @@ def prime_check(n):
             return False
     return True
 
+
 def prime_sum(n):
     if n == 2:
         return n
@@ -24,6 +25,7 @@ def prime_sum(n):
             s = s + i
         i = i + 2
     return s + 2
+
 
 x = int(sys.argv[1])
 print(prime_sum(x))
